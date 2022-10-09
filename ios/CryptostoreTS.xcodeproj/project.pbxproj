@@ -14,6 +14,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-CryptostoreTS-CryptostoreTSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CryptostoreTS-CryptostoreTSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		0B9C18199A2B4A29AA61D125 /* ReadexPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7352B6E67E4041228FD5E92F /* ReadexPro-Bold.ttf */; };
+		38EA28FBA6B74B0AA719EB84 /* ReadexPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF2619E5B54EC985821A8B /* ReadexPro-ExtraLight.ttf */; };
+		87B9BC1F063B4AC5A684752A /* ReadexPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96C937B60FF44C81A2E41D7D /* ReadexPro-Light.ttf */; };
+		F79F692F4D7D414F945E954C /* ReadexPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E22C4C349CE4BA5BDFDE4E2 /* ReadexPro-Medium.ttf */; };
+		895312A7D602461C9B5849B0 /* ReadexPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F5CC58D36C34F4898FA8C64 /* ReadexPro-Regular.ttf */; };
+		E3315ACE7C8B48E0A2A62A72 /* ReadexPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 681EBD3BF1C84A97B924A98C /* ReadexPro-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CryptostoreTS/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-CryptostoreTS-CryptostoreTSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptostoreTS-CryptostoreTSTests.release.xcconfig"; path = "Target Support Files/Pods-CryptostoreTS-CryptostoreTSTests/Pods-CryptostoreTS-CryptostoreTSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		7352B6E67E4041228FD5E92F /* ReadexPro-Bold.ttf */ = {isa = PBXFileReference; name = "ReadexPro-Bold.ttf"; path = "../assets/fonts/ReadexPro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7AAF2619E5B54EC985821A8B /* ReadexPro-ExtraLight.ttf */ = {isa = PBXFileReference; name = "ReadexPro-ExtraLight.ttf"; path = "../assets/fonts/ReadexPro-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96C937B60FF44C81A2E41D7D /* ReadexPro-Light.ttf */ = {isa = PBXFileReference; name = "ReadexPro-Light.ttf"; path = "../assets/fonts/ReadexPro-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E22C4C349CE4BA5BDFDE4E2 /* ReadexPro-Medium.ttf */ = {isa = PBXFileReference; name = "ReadexPro-Medium.ttf"; path = "../assets/fonts/ReadexPro-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F5CC58D36C34F4898FA8C64 /* ReadexPro-Regular.ttf */ = {isa = PBXFileReference; name = "ReadexPro-Regular.ttf"; path = "../assets/fonts/ReadexPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		681EBD3BF1C84A97B924A98C /* ReadexPro-SemiBold.ttf */ = {isa = PBXFileReference; name = "ReadexPro-SemiBold.ttf"; path = "../assets/fonts/ReadexPro-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BA95D6DF307C4AEC98246A21 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +160,20 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		BA95D6DF307C4AEC98246A21 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				7352B6E67E4041228FD5E92F /* ReadexPro-Bold.ttf */,
+				7AAF2619E5B54EC985821A8B /* ReadexPro-ExtraLight.ttf */,
+				96C937B60FF44C81A2E41D7D /* ReadexPro-Light.ttf */,
+				4E22C4C349CE4BA5BDFDE4E2 /* ReadexPro-Medium.ttf */,
+				0F5CC58D36C34F4898FA8C64 /* ReadexPro-Regular.ttf */,
+				681EBD3BF1C84A97B924A98C /* ReadexPro-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +271,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0B9C18199A2B4A29AA61D125 /* ReadexPro-Bold.ttf in Resources */,
+				38EA28FBA6B74B0AA719EB84 /* ReadexPro-ExtraLight.ttf in Resources */,
+				87B9BC1F063B4AC5A684752A /* ReadexPro-Light.ttf in Resources */,
+				F79F692F4D7D414F945E954C /* ReadexPro-Medium.ttf in Resources */,
+				895312A7D602461C9B5849B0 /* ReadexPro-Regular.ttf in Resources */,
+				E3315ACE7C8B48E0A2A62A72 /* ReadexPro-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
